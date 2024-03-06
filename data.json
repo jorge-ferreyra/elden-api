@@ -2,7 +2,7 @@
   "bosses": [
     {
       "tier": "B",
-      "name": "Godrick The Grafted",
+      "name": "Godrick El Injertado",
       "image": "https://www.mundodeportivo.com/alfabeta/hero/2022/05/godrick-elden-ring.jpg?width=1200",
 
       "dropRunes": "20.000",
@@ -12,9 +12,9 @@
         "stance": "105",
         "parryable": false,
         "damage": [
-          "Standard (Phase 1 & 2)",
-          "Strike (Phase 1 & 2)",
-          "Fire (Phase 2)"
+          "Estándar (Fase 1 & 2)",
+          "Contundente (Fase 1 & 2)",
+          "Fuego (Fase 2)"
         ],
         "negations": {
           "standard": "0",
@@ -32,14 +32,14 @@
           "hemorrhage": "318 / 416 / 706 / 1163",
           "frostbite": "318 / 416 / 706 / 1163",
           "sleep": "318 / 416 / 706 / 1163",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "A",
-      "name": "Rennala, Queen Of The Full Moon",
+      "name": "Rennala, Reina De La Luna LLena",
       "image": "https://cdn.mos.cms.futurecdn.net/6XxJnDRNDYP5zQBNqNxUsQ-1200-80.png",
 
       "dropRunes": "40.000",
@@ -52,9 +52,9 @@
             "stance": "0",
             "parryable": false,
             "damage": [
-              "Standard",
-              "Magic",
-              "Fire"
+              "Estándar",
+              "Mágico",
+              "Fuego"
             ],
             "negations": {
               "standard": "-10",
@@ -71,9 +71,9 @@
               "scarletRot": "326 / 424 / 714 / 1171",
               "hemorrhage": "326 / 424 / 714 / 1171",
               "frostbite": "326 / 424 / 714 / 1171",
-              "sleep": "Immune",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "sleep": "Inmune",
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         },
@@ -84,7 +84,7 @@
             "defense": "109",
             "stance": "80",
             "parryable": false,
-            "damage": "Magic",
+            "damage": "Mágico",
             "negations": {
               "standard": "-10",
               "slash": "-10",
@@ -100,9 +100,9 @@
               "scarletRot": "534 / 824 / 1281",
               "hemorrhage": "326 / 424 / 714 / 1171",
               "frostbite": "534 / 824 / 1281",
-              "sleep": "Immune",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "sleep": "Inmune",
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         }
@@ -110,7 +110,7 @@
     },
     {
       "tier": "B",
-      "name": "Starscourge Radahn", 
+      "name": "Radahn, Azote De Las Estrellas", 
       "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/05/elden-ring-2714031.jpg?tf=3840x",
 
       "dropRunes": "70.000",
@@ -120,9 +120,9 @@
         "stance": "200",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Pierce",
-          "Magic"
+          "Estandar",
+          "Perforante",
+          "Mágico"
         ],
         "negations": {
           "standard": "10",
@@ -140,14 +140,14 @@
           "hemorrhage": "334 / 432 / 722 / 1179",
           "frostbite": "334 / 432 / 722 / 1179",
           "sleep": "548 / 838 / 1295",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "Morgott The Omen King",
+      "name": "Morgott, El Rey Del Augurio",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_close.jpg",
 
       "dropRunes": "120.000",
@@ -157,12 +157,12 @@
         "stance": "80",
         "parryable": true,
         "damage": [
-          "Slash (Phase 1 & 2)",
-          "Pierce (Phase 1 & 2)",
-          "Holy (Phase 1 & 2)",
-          "Fire (Phase 2)"
+          "Cortante (Fase 1 & 2)",
+          "Perforante (Fase 1 & 2)",
+          "Santo (Fase 1 & 2)",
+          "Fuego (Fase 2)"
         ],
-        "inflicts": "Hemorrhage",
+        "inflicts": "Hemorragia",
         "negations": {
           "standard": "0",
           "slash": "-10",
@@ -179,14 +179,14 @@
           "hemorrhage": "337 / 435 / 725 / 1182",
           "frostbite": "337 / 435 / 725 / 1182",
           "sleep": "552 / 842 / 1299",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "God-Devouring Serpent / Rykard, Lord Of Blasphemy",
+      "name": "Serpiente Devoradioses / Rykard, Señor De La Blasfemia",
       "image": "https://assetsio.reedpopcdn.com/elden_ring_guide_rykard_boss_fight_scene_4.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
       "dropRunes": "130.000",
@@ -196,11 +196,11 @@
         "stance": "120",
         "parryable": false,
         "damage": [
-          "Standard (Phase 1 & 2)",
-          "Fire (Phase 1 & 2)",
-          "Pierce (Phase 2)"
+          "Estándar (Fase 1 & 2)",
+          "Fuego (Fase 1 & 2)",
+          "Perforante (Fase 2)"
         ],
-        "inflicts": "Poison",
+        "inflicts": "Veneno",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -217,14 +217,14 @@
           "hemorrhage": "556 / 846 / 1303",
           "frostbite": "247 / 289 / 387 / 677",
           "sleep": "556 / 846 / 1303",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "Mohg, Lord Of Blood",
+      "name": "Mohg, Señor De La Sangre",
       "image": "https://editors.dexerto.com/wp-content/uploads/2024/02/22/elden-ring-mohg-lord-of-blood.jpg",
 
       "dropRunes": "420.000",
@@ -234,11 +234,11 @@
         "stance": "110",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Pierce",
-          "Fire"
+          "Estándar",
+          "Perforante",
+          "Fuego"
         ],
-        "inflicts": "Hemorrhage",
+        "inflicts": "Hemorragia",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -255,14 +255,14 @@
           "hemorrhage": "290 / 332 / 430 / 720",
           "frostbite": "653 / 943 / 1400",
           "sleep": "1406 / 1863",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "Malenia, Blade Of Miquella",
+      "name": "Malenia, Espada De Miquella",
       "image": "https://assetsio.reedpopcdn.com/malenia-first-phase.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
       "dropRunes": "480.000",
@@ -272,19 +272,19 @@
         "stance": "80",
         "parryable": true,
         "damage": [
-          "Standard (Phase 1 & 2)",
-          "Slash (Phase 1 & 2)",
-          "Pierce (Phase 1 & 2)"
+          "Estándar (Fase 1 & 2)",
+          "Cortante (Fase 1 & 2)",
+          "Perforante (Fase 1 & 2)"
         ],
-        "inflicts": "Scarlet Rot (Phase 2)",
+        "inflicts": "Podredumbre Escarlata (Fase 2)",
         "negations": {
           "standard": "10",
           "slash": "10",
           "strike": "10",
           "pierce": "10",
           "magic": "20",
-          "fire": "0 (10 while in water)",
-          "lightning": "20 (10 while in water)",
+          "fire": "0 (10 mientras está en el agua)",
+          "lightning": "20 (10 mientras está en el agua)",
           "holy": "40"
         },
         "resistances": {
@@ -293,14 +293,14 @@
           "hemorrhage": "420",
           "frostbite": "306",
           "sleep": "688",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "Lichdragon Fortissax",
+      "name": "Dragón Liche Fortissax",
       "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/lichdragon-fortissax-nightmare-sky.jpg",
 
       "dropRunes": "90.000",
@@ -310,11 +310,11 @@
         "stance": "140",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Fire",
-          "Lightning"
+          "Estándar",
+          "Fuego",
+          "Rayo"
         ],
-        "inflicts": "Death Blight",
+        "inflicts": "Plaga de muerte",
         "negations": {
           "standard": "35",
           "slash": "35",
@@ -330,15 +330,15 @@
           "scarletRot": "552 / 842 / 1299",
           "hemorrhage": "552 / 842 / 1299",
           "frostbite": "552 / 842 / 1299",
-          "sleep": "Immune",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "sleep": "Inmune",
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "C",
-      "name": "Astel Naturalborn Of The Void",
+      "name": "Astel, Innato Del Vacío",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel.jpg",
 
       "dropRunes": "80.000",
@@ -348,8 +348,8 @@
         "stance": "120",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Magic"
+          "Estándar",
+          "Mágico"
         ],
         "negations": {
           "standard": "10",
@@ -365,16 +365,16 @@
           "poison": "552 / 842 / 1299",
           "scarletRot": "552 / 842 / 1299",
           "hemorrhage": "552 / 842 / 1299",
-          "frostbite": "Immune",
-          "sleep": "Immune",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "frostbite": "Inmune",
+          "sleep": "Inmune",
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "S",
-      "name": "Regal Ancestor Spirit",
+      "name": "Espíritu Ancestro Real",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
 
       "dropRunes": "24.000",
@@ -384,8 +384,8 @@
         "stance": "120",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Magic"
+          "Estándar",
+          "Mágico"
         ],
         "negations": {
           "standard": "0",
@@ -402,15 +402,15 @@
           "scarletRot": "1169 / 1626",
           "hemorrhage": "1169 / 1626",
           "frostbite": "1169 / 1626",
-          "sleep": "Immune",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "sleep": "Inmune",
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "B",
-      "name": "Fire Giant",
+      "name": "Gigante Del Fuego",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-giant-3-hq-elden-ring-wiki-guide.jpg",
 
       "dropRunes": "180.000",
@@ -420,9 +420,9 @@
         "stance": "120",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Strike",
-          "Fire"
+          "Estándar",
+          "Contundente",
+          "Fuego"
         ],
         "negations": {
           "standard": "0",
@@ -440,14 +440,14 @@
           "hemorrhage": "565 / 855 / 1312",
           "frostbite": "1216 / 1673",
           "sleep": "565 / 855 / 1312",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "S",
-      "name": "Dragonlord Placidusax",
+      "name": "Señor Dragón Placidusax",
       "image": "https://staticg.sportskeeda.com/editor/2022/03/10d2f-16468205136995-1920.jpg",
 
       "dropRunes": "280.000",
@@ -457,9 +457,9 @@
         "stance": "160",
         "parryable": false,
         "damage": [
-          "Standard",
-          "Fire",
-          "Lightning"
+          "Estándar",
+          "Fuego",
+          "Rayo"
         ],
         "negations": {
           "standard": "35",
@@ -476,15 +476,15 @@
           "scarletRot": "1349 / 1806",
           "hemorrhage": "1349 / 1806",
           "frostbite": "1349 / 1806",
-          "sleep": "Immune",
-          "madness": "Immune",
-          "deathBlight": "Immune"
+          "sleep": "Inmune",
+          "madness": "Inmune",
+          "deathBlight": "Inmune"
         }
       }
     },
     {
       "tier": "A",
-      "name": "Beast Clergyman / Maliketh",
+      "name": "Clérigo Bestia / Maliketh, La Hoja Negra",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-clergyman-4k.jpg",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh-the-black-blade-4k.jpg",
 
@@ -498,10 +498,10 @@
             "stance": "80",
             "parryable": true,
             "damage": [
-              "Standard",
-              "Slash",
-              "Pierce",
-              "Magic"
+              "Estándar",
+              "Cortante",
+              "Perforante",
+              "Mágico"
             ],
             "negations": {
               "standard": "35 / 120",
@@ -519,8 +519,8 @@
               "hemorrhage": "574",
               "frostbite": "574",
               "sleep": "2277",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         },
@@ -532,9 +532,9 @@
             "stance": "80",
             "parryable": true,
             "damage": [
-              "Standard",
-              "Pierce",
-              "Holy"
+              "Estándar",
+              "Perforante",
+              "Santo"
             ],
             "negations": {
               "standard": "35",
@@ -552,8 +552,8 @@
               "hemorrhage": "574 / 864 / 1321",
               "frostbite": "574 / 864 / 1321",
               "sleep": "2277 / 2277",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         }
@@ -561,11 +561,11 @@
     },
     {
       "tier": "A",
-      "name": "Godfrey, First Elden Lord / Hoarah Loux",
+      "name": "Godfrey, Primer Señor Del Círculo / Hoarah Loux",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey-first-elden-lord-hoarah-loux.jpg",
 
       "dropRunes": "300.000",
-      "hasPhases": true,
+      "hasFases": true,
       "phases": [
         {
           "phase": "1",
@@ -575,8 +575,8 @@
             "stance": "120",
             "parryable": false,
             "damage": [
-              "Standard",
-              "Strike"
+              "Estándar",
+              "Contundente"
             ],
             "negations": {
               "standard": "10",
@@ -594,8 +594,8 @@
               "hemorrhage": "601 / 891 / 1348",
               "frostbite": "601 / 891 / 1348",
               "sleep": "601 / 891 / 1348",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         },
@@ -607,8 +607,8 @@
             "stance": "120",
             "parryable": false,
             "damage": [
-              "Standard",
-              "Strike"
+              "Estándar",
+              "Contundente"
             ],
             "negations": {
               "standard": "0",
@@ -626,8 +626,8 @@
               "hemorrhage": "601 / 891 / 1348",
               "frostbite": "601 / 891 / 1348",
               "sleep": "1292 / 1749",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         }
@@ -635,7 +635,7 @@
     },
     {
       "tier": "A",
-      "name": "Radagon Of The Golden Order / Elden Beast",
+      "name": "Radagon De La Orden Dorada / Bestia Del Círculo",
       "image": "https://www.pcinvasion.com/wp-content/uploads/2022/04/elden-ring-how-to-beat-radagon-elden-beast-feat.jpg?fit=1920%2C1080",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-beast-boss-elden-ring-wiki-guide.jpg",
 
@@ -649,9 +649,9 @@
             "stance": "120",
             "parryable": true,
             "damage": [
-              "Standard",
-              "Strike",
-              "Holy"
+              "Estándar",
+              "Contundente",
+              "Santo"
             ],
             "negations": {
               "standard": "35",
@@ -666,11 +666,11 @@
             "resistances": {
               "poison": "627.4",
               "scarletRot": "627.4",
-              "hemorrhage": "Immune",
+              "hemorrhage": "Inmune",
               "frostbite": "627.4",
-              "sleep": "Immune",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "sleep": "Inmune",
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         },
@@ -682,9 +682,9 @@
             "stance": "150",
             "parryable": false,
             "damage": [
-              "Standard",
-              "Pierce",
-              "Holy"
+              "Estándar",
+              "Perforante",
+              "Santo"
             ],
             "negations": {
               "standard": "10",
@@ -697,13 +697,13 @@
               "holy": "80"
             },
             "resistances": {
-              "poison": "Immune",
-              "scarletRot": "Immune",
-              "hemorrhage": "Immune",
-              "frostbite": "Immune",
-              "sleep": "Immune",
-              "madness": "Immune",
-              "deathBlight": "Immune"
+              "poison": "Inmune",
+              "scarletRot": "Inmune",
+              "hemorrhage": "Inmune",
+              "frostbite": "Inmune",
+              "sleep": "Inmune",
+              "madness": "Inmune",
+              "deathBlight": "Inmune"
             }
           }
         }
