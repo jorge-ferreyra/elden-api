@@ -442,7 +442,6 @@
       "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/lichdragon-fortissax-nightmare-sky.jpg",
 
       "dropRunes": "",
-      "hasPhases": true,
       "phases": [
         {
           "phase": "",
@@ -512,7 +511,6 @@
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel.jpg",
 
       "dropRunes": "",
-      "hasPhases": true,
       "phases": [
         {
           "phase": "",
@@ -582,7 +580,6 @@
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
 
       "dropRunes": "",
-      "hasPhases": true,
       "phases": [
         {
           "phase": "",
@@ -788,7 +785,7 @@
     },
     {
       "tier": "A",
-      "name": "Maliketh",
+      "name": "Beast Clergyman / Maliketh",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-clergyman-4k.jpg",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh-the-black-blade-4k.jpg",
 
@@ -859,7 +856,7 @@
     },
     {
       "tier": "A",
-      "name": "Godfrey",
+      "name": "Godfrey, First Elden Lord / Hoarah Lou",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey-first-elden-lord-hoarah-loux.jpg",
 
       "dropRunes": "300.000",
@@ -929,8 +926,8 @@
       ]
     },
     {
-      "tier": "S",
-      "name": "Radagon",
+      "tier": "A",
+      "name": "Radagon Of The Golden Order / Elden Beast",
       "image": "https://www.pcinvasion.com/wp-content/uploads/2022/04/elden-ring-how-to-beat-radagon-elden-beast-feat.jpg?fit=1920%2C1080",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-beast-boss-elden-ring-wiki-guide.jpg",
 
