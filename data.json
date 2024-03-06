@@ -6,45 +6,35 @@
       "image": "https://www.mundodeportivo.com/alfabeta/hero/2022/05/godrick-elden-ring.jpg?width=1200",
 
       "dropRunes": "20.000",
-      "stats": [
-        {
-          "health": "6.080",
-          "defense": "105",
-          "stance": "105",
-          "parryable": false,
-          "damage": [
-            "Standard (Phase 1 & 2)",
-            "Strike (Phase 1 & 2)",
-            "Fire (Phase 2)"
-          ]
+      "stats": {
+        "health": "6.080",
+        "defense": "105",
+        "stance": "105",
+        "parryable": false,
+        "damage": [
+          "Standard (Phase 1 & 2)",
+          "Strike (Phase 1 & 2)",
+          "Fire (Phase 2)"
+        ],
+        "negations": {
+          "standard": "0",
+          "slash": "0",
+          "strike": "0",
+          "pierce": "0",
+          "magic": "20",
+          "fire": "20",
+          "lightning": "20",
+          "holy": "40"
         },
-        {
-          "negations": [
-            {
-              "standard": "0",
-              "slash": "0",
-              "strike": "0",
-              "pierce": "0",
-              "magic": "20",
-              "fire": "20",
-              "lightning": "20",
-              "holy": "40"
-            }
-          ]
-        }, {
-          "resistances": [
-            {
-              "poison": "318 / 416 / 706 / 1163",
-              "scarletRot": "318 / 416 / 706 / 1163",
-              "hemorrhage": "318 / 416 / 706 / 1163",
-              "frostbite": "318 / 416 / 706 / 1163",
-              "sleep": "318 / 416 / 706 / 1163",
-              "madness": "Immune"
-            }
-          ]
+        "resistances": {
+          "poison": "318 / 416 / 706 / 1163",
+          "scarletRot": "318 / 416 / 706 / 1163",
+          "hemorrhage": "318 / 416 / 706 / 1163",
+          "frostbite": "318 / 416 / 706 / 1163",
+          "sleep": "318 / 416 / 706 / 1163",
+          "madness": "Immune"
         }
-      ],
-      "comboChart": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick-combo-chart.png"
+      }
     },
     {
       "tier": "A",
@@ -140,10 +130,8 @@
           "fire": "20",
           "lightning": "20",
           "holy": "40"
-        }
-      },
-      "resistances": [
-        {
+        },
+        "resistances": {
           "poison": "334 / 432 / 722 / 1179",
           "scarletRot": "243 / 285 / 383 / 673",
           "hemorrhage": "334 / 432 / 722 / 1179",
@@ -151,7 +139,7 @@
           "sleep": "548 / 838 / 1295",
           "madness": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "B",
@@ -159,559 +147,297 @@
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_close.jpg",
 
       "dropRunes": "120.000",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "stats": {
+        "health": "10.399",
+        "defense": "114",
+        "stance": "80",
+        "parryable": true,
+        "damage": [
+          "Slash (Phase 1 & 2)",
+          "Pierce (Phase 1 & 2)",
+          "Holy (Phase 1 & 2)",
+          "Fire (Phase 2)"
+        ],
+        "negations": {
+          "standard": "0",
+          "slash": "-10",
+          "strike": "0",
+          "pierce": "0",
+          "magic": "0",
+          "fire": "0",
+          "lightning": "0",
+          "holy": "40"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "337 / 435 / 725 / 1182",
+          "scarletRot": "337 / 435 / 725 / 1182",
+          "hemorrhage": "337 / 435 / 725 / 1182",
+          "frostbite": "337 / 435 / 725 / 1182",
+          "sleep": "552 / 842 / 1299",
+          "madness": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "B",
-      "name": "Rykard, Lord Of Blasphemy",
+      "name": "God-Devouring Serpent / Rykard, Lord Of Blasphemy",
       "image": "https://assetsio.reedpopcdn.com/elden_ring_guide_rykard_boss_fight_scene_4.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "130.000",
+      "stats": {
+        "health": "30.493 / 59.174",
+        "defense": "115",
+        "stance": "120",
+        "parryable": false,
+        "damage": [
+          "Standard (Phase 1 & 2)",
+          "Fire (Phase 1 & 2)",
+          "Pierce (Phase 2)"
+        ],
+        "negations": {
+          "standard": "10",
+          "slash": "10",
+          "strike": "35",
+          "pierce": "10",
+          "magic": "40",
+          "fire": "80",
+          "lightning": "20",
+          "holy": "40"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "556 / 846 / 1303",
+          "scarletRot": "556 / 846 / 1303",
+          "hemorrhage": "556 / 846 / 1303",
+          "frostbite": "247 / 289 / 387 / 677",
+          "sleep": "556 / 846 / 1303",
+          "madness": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "B",
       "name": "Mohg, Lord Of Blood",
       "image": "https://editors.dexerto.com/wp-content/uploads/2024/02/22/elden-ring-mohg-lord-of-blood.jpg",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "420.000",
+      "stats": {
+        "health": "18.389",
+        "defense": "122",
+        "stance": "110",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Pierce",
+          "Fire"
+        ],
+        "negations": {
+          "standard": "10",
+          "slash": "10",
+          "strike": "10",
+          "pierce": "10",
+          "magic": "40",
+          "fire": "80",
+          "lightning": "40",
+          "holy": "40"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "653 / 943 / 1400",
+          "scarletRot": "653 / 943 / 1400",
+          "hemorrhage": "290 / 332 / 430 / 720",
+          "frostbite": "653 / 943 / 1400",
+          "sleep": "1406 / 1863",
+          "madness": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "B",
       "name": "Malenia, Blade Of Miquella",
       "image": "https://assetsio.reedpopcdn.com/malenia-first-phase.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "1",
-          "stats": {
-            "health": "10.620",
-            "defense": "120",
-            "stance": "80",
-            "parryable": false,
-            "damage": [
-              "Standard",
-              "Slash",
-              "Magic",
-              "Pierce"
-            ],
-            "negations": {
-              "standard": "35 / 120",
-              "slash": "35 / 120",
-              "strike": "35 / 120",
-              "pierce": "35 / 120",
-              "magic": "40 / 120",
-              "fire": "40 / 120",
-              "lightning": "40 / 120",
-              "holy": "80 / 120"
-            },
-            "resistances": {
-              "poison": "351",
-              "scarletRot": "351",
-              "hemorrhage": "574",
-              "frostbite": "574",
-              "sleep": "2277",
-              "madness": "Immune",
-              "deathBlight": "Immune"
-            }
-          }
+      "dropRunes": "480.000",
+      "stats": {
+        "health": "18.473 / 14.778",
+        "defense": "120",
+        "stance": "80",
+        "parryable": true,
+        "damage": [
+          "Standard (Phase 1 & 2)",
+          "Slash (Phase 1 & 2)",
+          "Pierce (Phase 1 & 2)",
+          "Scarlet Rot (Phase 2)"
+        ],
+        "inflicts": "Scarlet Rot",
+        "negations": {
+          "standard": "10",
+          "slash": "10",
+          "strike": "10",
+          "pierce": "10",
+          "magic": "20",
+          "fire": "0 (10 while in water)",
+          "lightning": "20 (10 while in water)",
+          "holy": "40"
         },
-        {
-          "phase": "2",
-          "stats": {
-            "health": "5.310",
-            "defense": "120",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "Standard",
-              "Pierce",
-              "Holy"
-            ],
-            "negations": {
-              "standard": "35",
-              "slash": "35",
-              "strike": "35",
-              "pierce": "35",
-              "magic": "40",
-              "fire": "40",
-              "lightning": "40",
-              "holy": "80"
-            },
-            "resistances": {
-              "poison": "351 / 449 / 739 / 1196",
-              "scarletRot": "351 / 449 / 739 / 1196",
-              "hemorrhage": "574 / 864 / 1321",
-              "frostbite": "574 / 864 / 1321",
-              "sleep": "2277 / 2277",
-              "madness": "Immune",
-              "deathBlight": "Immune"
-            }
-          }
+        "resistances": {
+          "poison": "1481",
+          "scarletRot": "1481",
+          "hemorrhage": "420",
+          "frostbite": "306",
+          "sleep": "688",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
-      "tier": "C",
+      "tier": "B",
       "name": "Lichdragon Fortissax",
       "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/lichdragon-fortissax-nightmare-sky.jpg",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "90.000",
+      "stats": {
+        "health": "12.903",
+        "defense": "114",
+        "stance": "140",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Fire",
+          "Lightning"
+        ],
+        "inflicts": "Death Blight",
+        "negations": {
+          "standard": "35",
+          "slash": "35",
+          "strike": "35",
+          "pierce": "10",
+          "magic": "40",
+          "fire": "40",
+          "lightning": "80",
+          "holy": "80"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "552 / 842 / 1299",
+          "scarletRot": "552 / 842 / 1299",
+          "hemorrhage": "552 / 842 / 1299",
+          "frostbite": "552 / 842 / 1299",
+          "sleep": "Immune",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "C",
       "name": "Astel Naturalborn Of The Void",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel.jpg",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "80.000",
+      "stats": {
+        "health": "11.170",
+        "defense": "114",
+        "stance": "120",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Magic"
+        ],
+        "inflicts": "None",
+        "negations": {
+          "standard": "10",
+          "slash": "10",
+          "strike": "10",
+          "pierce": "10",
+          "magic": "40",
+          "fire": "40",
+          "lightning": "40",
+          "holy": "40"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "552 / 842 / 1299",
+          "scarletRot": "552 / 842 / 1299",
+          "hemorrhage": "552 / 842 / 1299",
+          "frostbite": "Immune",
+          "sleep": "Immune",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "C",
       "name": "Regal Ancestor Spirit",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
 
-      "dropRunes": "",
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "24.000",
+      "stats": {
+        "health": "6.301",
+        "defense": "111",
+        "stance": "120",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Magic"
+        ],
+        "inflicts": "None",
+        "negations": {
+          "standard": "0",
+          "slash": "-10",
+          "strike": "0",
+          "pierce": "0",
+          "magic": "20",
+          "fire": "-20",
+          "lightning": "0",
+          "holy": "-20"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "1169 / 1626",
+          "scarletRot": "1169 / 1626",
+          "hemorrhage": "1169 / 1626",
+          "frostbite": "1169 / 1626",
+          "sleep": "Immune",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "B",
       "name": "Fire Giant",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-giant-3-hq-elden-ring-wiki-guide.jpg",
 
-      "dropRunes": "",
-      "hasPhases": true,
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "180.000",
+      "stats": {
+        "health": "42.363",
+        "defense": "118",
+        "stance": "120",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Strike",
+          "Fire"
+        ],
+        "inflicts": "None",
+        "negations": {
+          "standard": "0",
+          "slash": "-10",
+          "strike": "0",
+          "pierce": "0",
+          "magic": "0",
+          "fire": "50",
+          "lightning": "0",
+          "holy": "20"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "565 / 855 / 1312",
+          "scarletRot": "565 / 855 / 1312",
+          "hemorrhage": "565 / 855 / 1312",
+          "frostbite": "1216 / 1673",
+          "sleep": "565 / 855 / 1312",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "S",
@@ -856,7 +582,7 @@
     },
     {
       "tier": "A",
-      "name": "Godfrey, First Elden Lord / Hoarah Lou",
+      "name": "Godfrey, First Elden Lord / Hoarah Loux",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey-first-elden-lord-hoarah-loux.jpg",
 
       "dropRunes": "300.000",
