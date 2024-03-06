@@ -32,7 +32,8 @@
           "hemorrhage": "318 / 416 / 706 / 1163",
           "frostbite": "318 / 416 / 706 / 1163",
           "sleep": "318 / 416 / 706 / 1163",
-          "madness": "Immune"
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
       }
     },
@@ -71,7 +72,8 @@
               "hemorrhage": "326 / 424 / 714 / 1171",
               "frostbite": "326 / 424 / 714 / 1171",
               "sleep": "Immune",
-              "madness": "Immune"
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         },
@@ -99,7 +101,8 @@
               "hemorrhage": "326 / 424 / 714 / 1171",
               "frostbite": "534 / 824 / 1281",
               "sleep": "Immune",
-              "madness": "Immune"
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         }
@@ -137,7 +140,8 @@
           "hemorrhage": "334 / 432 / 722 / 1179",
           "frostbite": "334 / 432 / 722 / 1179",
           "sleep": "548 / 838 / 1295",
-          "madness": "Immune"
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
       }
     },
@@ -158,6 +162,7 @@
           "Holy (Phase 1 & 2)",
           "Fire (Phase 2)"
         ],
+        "inflicts": "Hemorrhage",
         "negations": {
           "standard": "0",
           "slash": "-10",
@@ -174,7 +179,8 @@
           "hemorrhage": "337 / 435 / 725 / 1182",
           "frostbite": "337 / 435 / 725 / 1182",
           "sleep": "552 / 842 / 1299",
-          "madness": "Immune"
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
       }
     },
@@ -194,6 +200,7 @@
           "Fire (Phase 1 & 2)",
           "Pierce (Phase 2)"
         ],
+        "inflicts": "Poison",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -210,7 +217,8 @@
           "hemorrhage": "556 / 846 / 1303",
           "frostbite": "247 / 289 / 387 / 677",
           "sleep": "556 / 846 / 1303",
-          "madness": "Immune"
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
       }
     },
@@ -230,6 +238,7 @@
           "Pierce",
           "Fire"
         ],
+        "inflicts": "Hemorrhage",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -246,7 +255,8 @@
           "hemorrhage": "290 / 332 / 430 / 720",
           "frostbite": "653 / 943 / 1400",
           "sleep": "1406 / 1863",
-          "madness": "Immune"
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
       }
     },
@@ -264,10 +274,9 @@
         "damage": [
           "Standard (Phase 1 & 2)",
           "Slash (Phase 1 & 2)",
-          "Pierce (Phase 1 & 2)",
-          "Scarlet Rot (Phase 2)"
+          "Pierce (Phase 1 & 2)"
         ],
-        "inflicts": "Scarlet Rot",
+        "inflicts": "Scarlet Rot (Phase 2)",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -342,7 +351,6 @@
           "Standard",
           "Magic"
         ],
-        "inflicts": "None",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -365,7 +373,7 @@
       }
     },
     {
-      "tier": "C",
+      "tier": "S",
       "name": "Regal Ancestor Spirit",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
 
@@ -379,7 +387,6 @@
           "Standard",
           "Magic"
         ],
-        "inflicts": "None",
         "negations": {
           "standard": "0",
           "slash": "-10",
@@ -417,7 +424,6 @@
           "Strike",
           "Fire"
         ],
-        "inflicts": "None",
         "negations": {
           "standard": "0",
           "slash": "-10",
@@ -444,70 +450,37 @@
       "name": "Dragonlord Placidusax",
       "image": "https://staticg.sportskeeda.com/editor/2022/03/10d2f-16468205136995-1920.jpg",
 
-      "dropRunes": "",
-      "hasPhases": true,
-      "phases": [
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": [
-              "",
-              "",
-              ""
-            ],
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+      "dropRunes": "280.000",
+      "stats": {
+        "health": "22.651",
+        "defense": "121",
+        "stance": "160",
+        "parryable": false,
+        "damage": [
+          "Standard",
+          "Fire",
+          "Lightning"
+        ],
+        "negations": {
+          "standard": "35",
+          "slash": "35",
+          "strike": "35",
+          "pierce": "10",
+          "magic": "40",
+          "fire": "40",
+          "lightning": "40",
+          "holy": "40"
         },
-        {
-          "phase": "",
-          "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
-            "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
-            },
-            "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
-            }
-          }
+        "resistances": {
+          "poison": "1349 / 1806",
+          "scarletRot": "1349 / 1806",
+          "hemorrhage": "1349 / 1806",
+          "frostbite": "1349 / 1806",
+          "sleep": "Immune",
+          "madness": "Immune",
+          "deathBlight": "Immune"
         }
-      ]
+      }
     },
     {
       "tier": "A",
@@ -515,66 +488,72 @@
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-clergyman-4k.jpg",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh-the-black-blade-4k.jpg",
 
-      "dropRunes": "",
-      "hasPhases": true,
+      "dropRunes": "220.000",
       "phases": [
         {
-          "phase": "",
+          "phase": "1",
           "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
+            "health": "10.620",
+            "defense": "120",
+            "stance": "80",
+            "parryable": true,
             "damage": [
-              "",
-              "",
-              ""
+              "Standard",
+              "Slash",
+              "Pierce",
+              "Magic"
             ],
             "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
+              "standard": "35 / 120",
+              "slash": "35 / 120",
+              "strike": "35 / 120",
+              "pierce": "35 / 120",
+              "magic": "40 / 120",
+              "fire": "40 / 120",
+              "lightning": "40 / 120",
+              "holy": "80 / 120"
             },
             "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
+              "poison": "351",
+              "scarletRot": "351",
+              "hemorrhage": "574",
+              "frostbite": "574",
+              "sleep": "2277",
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         },
         {
-          "phase": "",
+          "phase": "2",
           "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
-            "damage": "",
+            "health": "5.310 or less",
+            "defense": "120",
+            "stance": "80",
+            "parryable": true,
+            "damage": [
+              "Standard",
+              "Pierce",
+              "Holy"
+            ],
             "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
+              "standard": "35",
+              "slash": "35",
+              "strike": "35",
+              "pierce": "35",
+              "magic": "40",
+              "fire": "40",
+              "lightning": "40",
+              "holy": "80"
             },
             "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
+              "poison": "351 / 449 / 739 / 1196",
+              "scarletRot": "351 / 449 / 739 / 1196",
+              "hemorrhage": "574 / 864 / 1321",
+              "frostbite": "574 / 864 / 1321",
+              "sleep": "2277 / 2277",
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         }
@@ -615,19 +594,21 @@
               "hemorrhage": "601 / 891 / 1348",
               "frostbite": "601 / 891 / 1348",
               "sleep": "601 / 891 / 1348",
-              "madness": "Immune"
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         },
         {
           "phase": "2",
           "stats": {
-            "health": "half or less",
-            "defense": "",
-            "stance": "",
+            "health": "10.952 or less",
+            "defense": "120",
+            "stance": "120",
             "parryable": false,
             "damage": [
-              ""
+              "Standard",
+              "Strike"
             ],
             "negations": {
               "standard": "0",
@@ -640,12 +621,13 @@
               "holy": "40"
             },
             "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": "1292 / 1749"
+              "poison": "367 / 465 / 755 / 1212",
+              "scarletRot": "367 / 465 / 755 / 1212",
+              "hemorrhage": "601 / 891 / 1348",
+              "frostbite": "601 / 891 / 1348",
+              "sleep": "1292 / 1749",
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         }
@@ -657,66 +639,71 @@
       "image": "https://www.pcinvasion.com/wp-content/uploads/2022/04/elden-ring-how-to-beat-radagon-elden-beast-feat.jpg?fit=1920%2C1080",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-beast-boss-elden-ring-wiki-guide.jpg",
 
-      "dropRunes": "",
-      "hasPhases": true,
+      "dropRunes": "500.000",
       "phases": [
         {
-          "phase": "",
+          "phase": "1",
           "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
-            "parryable": false,
+            "health": "13.339",
+            "defense": "???",
+            "stance": "120",
+            "parryable": true,
             "damage": [
-              "",
-              "",
-              ""
+              "Standard",
+              "Strike",
+              "Holy"
             ],
             "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
+              "standard": "35",
+              "slash": "35",
+              "strike": "10",
+              "pierce": "35",
+              "magic": "20",
+              "fire": "0",
+              "lightning": "20",
+              "holy": "80"
             },
             "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
+              "poison": "627.4",
+              "scarletRot": "627.4",
+              "hemorrhage": "Immune",
+              "frostbite": "627.4",
+              "sleep": "Immune",
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         },
         {
-          "phase": "",
+          "phase": "2",
           "stats": {
-            "health": "",
-            "defense": "",
-            "stance": "",
+            "health": "22.127",
+            "defense": "???",
+            "stance": "150",
             "parryable": false,
-            "damage": "",
+            "damage": [
+              "Standard",
+              "Pierce",
+              "Holy"
+            ],
             "negations": {
-              "standard": "",
-              "slash": "",
-              "strike": "",
-              "pierce": "",
-              "magic": "",
-              "fire": "",
-              "lightning": "",
-              "holy": ""
+              "standard": "10",
+              "slash": "10",
+              "strike": "10",
+              "pierce": "10",
+              "magic": "40",
+              "fire": "40",
+              "lightning": "40",
+              "holy": "80"
             },
             "resistances": {
-              "poison": "",
-              "scarletRot": "",
-              "hemorrhage": "",
-              "frostbite": "",
-              "sleep": "",
-              "madness": ""
+              "poison": "Immune",
+              "scarletRot": "Immune",
+              "hemorrhage": "Immune",
+              "frostbite": "Immune",
+              "sleep": "Immune",
+              "madness": "Immune",
+              "deathBlight": "Immune"
             }
           }
         }
