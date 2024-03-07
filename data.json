@@ -1,10 +1,12 @@
 {
   "bosses": [
     {
+      "id": 0,
       "tier": "B",
-      "name": "Godrick El Injertado",
+      "name": "Godrick, El Injertado",
       "image": "https://www.mundodeportivo.com/alfabeta/hero/2022/05/godrick-elden-ring.jpg?width=1200",
 
+      "difficulty": "4",
       "dropRunes": "20.000",
       "stats": {
         "health": "6.080",
@@ -38,10 +40,12 @@
       }
     },
     {
+      "id": 1,
       "tier": "A",
       "name": "Rennala, Reina De La Luna LLena",
       "image": "https://cdn.mos.cms.futurecdn.net/6XxJnDRNDYP5zQBNqNxUsQ-1200-80.png",
 
+      "difficulty": "2",
       "dropRunes": "40.000",
       "phases": [
         {
@@ -109,10 +113,12 @@
       ]
     },
     {
+      "id": 2,
       "tier": "B",
       "name": "Radahn, Azote De Las Estrellas", 
       "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/05/elden-ring-2714031.jpg?tf=3840x",
 
+      "difficulty": "7",
       "dropRunes": "70.000",
       "stats": {
         "health": "9.572",
@@ -146,10 +152,12 @@
       }
     },
     {
+      "id": 3,
       "tier": "B",
       "name": "Morgott, El Rey Del Augurio",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_close.jpg",
 
+      "difficulty": "5",
       "dropRunes": "120.000",
       "stats": {
         "health": "10.399",
@@ -185,10 +193,12 @@
       }
     },
     {
+      "id": 4,
       "tier": "B",
       "name": "Serpiente Devoradioses / Rykard, Señor De La Blasfemia",
       "image": "https://assetsio.reedpopcdn.com/elden_ring_guide_rykard_boss_fight_scene_4.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
+      "difficulty": "7",
       "dropRunes": "130.000",
       "stats": {
         "health": "30.493 / 59.174",
@@ -223,10 +233,12 @@
       }
     },
     {
+      "id": 5,
       "tier": "B",
       "name": "Mohg, Señor De La Sangre",
       "image": "https://editors.dexerto.com/wp-content/uploads/2024/02/22/elden-ring-mohg-lord-of-blood.jpg",
 
+      "difficulty": "9",
       "dropRunes": "420.000",
       "stats": {
         "health": "18.389",
@@ -261,10 +273,12 @@
       }
     },
     {
+      "id": 6,
       "tier": "B",
       "name": "Malenia, Espada De Miquella",
       "image": "https://assetsio.reedpopcdn.com/malenia-first-phase.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
 
+      "difficulty": "10",
       "dropRunes": "480.000",
       "stats": {
         "health": "18.473 / 14.778",
@@ -276,7 +290,7 @@
           "Cortante (Fase 1 & 2)",
           "Perforante (Fase 1 & 2)"
         ],
-        "inflicts": "Podredumbre Escarlata (Fase 2)",
+        "inflicts": "Podredumbre escarlata (Fase 2)",
         "negations": {
           "standard": "10",
           "slash": "10",
@@ -299,10 +313,12 @@
       }
     },
     {
+      "id": 7,
       "tier": "B",
       "name": "Dragón Liche Fortissax",
       "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/lichdragon-fortissax-nightmare-sky.jpg",
 
+      "difficulty": "5",
       "dropRunes": "90.000",
       "stats": {
         "health": "12.903",
@@ -337,10 +353,12 @@
       }
     },
     {
+      "id": 8,
       "tier": "C",
       "name": "Astel, Innato Del Vacío",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel.jpg",
 
+      "difficulty": "5",
       "dropRunes": "80.000",
       "stats": {
         "health": "11.170",
@@ -373,10 +391,12 @@
       }
     },
     {
+      "id": 9,
       "tier": "S",
       "name": "Espíritu Ancestro Real",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
 
+      "difficulty": "4",
       "dropRunes": "24.000",
       "stats": {
         "health": "6.301",
@@ -409,10 +429,12 @@
       }
     },
     {
+      "id": 10,
       "tier": "B",
       "name": "Gigante Del Fuego",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-giant-3-hq-elden-ring-wiki-guide.jpg",
 
+      "difficulty": "6",
       "dropRunes": "180.000",
       "stats": {
         "health": "42.363",
@@ -446,10 +468,12 @@
       }
     },
     {
+      "id": 11,
       "tier": "S",
       "name": "Señor Dragón Placidusax",
       "image": "https://staticg.sportskeeda.com/editor/2022/03/10d2f-16468205136995-1920.jpg",
 
+      "difficulty": "8",
       "dropRunes": "280.000",
       "stats": {
         "health": "22.651",
@@ -483,11 +507,13 @@
       }
     },
     {
+      "id": 12,
       "tier": "A",
       "name": "Clérigo Bestia / Maliketh, La Hoja Negra",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-clergyman-4k.jpg",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh-the-black-blade-4k.jpg",
 
+      "difficulty": "8",
       "dropRunes": "220.000",
       "phases": [
         {
@@ -560,10 +586,12 @@
       ]
     },
     {
+      "id": 13,
       "tier": "A",
       "name": "Godfrey, Primer Señor Del Círculo / Hoarah Loux",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey-first-elden-lord-hoarah-loux.jpg",
 
+      "difficulty": "8",
       "dropRunes": "300.000",
       "hasFases": true,
       "phases": [
@@ -634,11 +662,13 @@
       ]
     },
     {
+      "id": 14,
       "tier": "A",
       "name": "Radagon De La Orden Dorada / Bestia Del Círculo",
       "image": "https://www.pcinvasion.com/wp-content/uploads/2022/04/elden-ring-how-to-beat-radagon-elden-beast-feat.jpg?fit=1920%2C1080",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-beast-boss-elden-ring-wiki-guide.jpg",
 
+      "difficulty": "10",
       "dropRunes": "500.000",
       "phases": [
         {
