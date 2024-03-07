@@ -1,9 +1,29 @@
 const express = require('express')
+const fs = require('node:fs')
 const app = express()
 const PORT = 1234
 
 app.get('/', (req, res) => {
-  res.send('Hello world')
+  res.send('<h1>Para encontrar el JSON con la información, ir a "/bosses"...</h1>')
+})
+
+/// ENDPOINT
+app.get('/bosses', (req, res) => {
+  fs.readFile('./data.json', 'utf-8', (err, data) => {
+    if (err) {
+      console.error(err)
+      return res.status(500).send('Error al leer el archivo')
+    }
+    try {
+      const param = req.params
+      const info = JSON.parse(data)
+      const result = info.bosses[param.id]
+      res.json(result)
+    } catch (error) {
+      console.error(error)
+      res.status(500).send('Error al procesar los datos')
+    }
+  })
 })
 
 app.listen(PORT, () => {
