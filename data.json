@@ -5,28 +5,28 @@
       "tier": "B",
       "name": "Godrick, El Injertado",
       "image": "https://www.mundodeportivo.com/alfabeta/hero/2022/05/godrick-elden-ring.jpg?width=1200",
+      "difficulty": 4,
+      "dropRunes": 20000,
 
-      "difficulty": "4",
-      "dropRunes": "20.000",
       "stats": {
-        "health": "6.080",
-        "defense": "105",
-        "stance": "105",
+        "health": 6080,
+        "defense": 105,
+        "stance": 105,
         "parryable": false,
         "damage": [
           "Estándar (Fase 1 & 2)",
-          "Contundente (Fase 1 & 2)",
-          "Fuego (Fase 2)"
+          " Contundente (Fase 1 & 2)",
+          " Fuego (Fase 2)"
         ],
         "negations": {
-          "standard": "0",
-          "slash": "0",
-          "strike": "0",
-          "pierce": "0",
-          "magic": "20",
-          "fire": "20",
-          "lightning": "20",
-          "holy": "40"
+          "standard": 0,
+          "slash": 0,
+          "strike": 0,
+          "pierce": 0,
+          "magic": 20,
+          "fire": 20,
+          "lightning": 20,
+          "holy": 40
         },
         "resistances": {
           "poison": "318 / 416 / 706 / 1163",
@@ -44,16 +44,16 @@
       "tier": "A",
       "name": "Rennala, Reina De La Luna LLena",
       "image": "https://cdn.mos.cms.futurecdn.net/6XxJnDRNDYP5zQBNqNxUsQ-1200-80.png",
+      "difficulty": 2,
+      "dropRunes": 40000,
 
-      "difficulty": "2",
-      "dropRunes": "40.000",
       "phases": [
         {
-          "phase": "1",
+          "phase": 1,
           "stats": {
-            "health": "3.493",
-            "defense": "109",
-            "stance": "0",
+            "health": 3493,
+            "defense": 109,
+            "stance": 0,
             "parryable": false,
             "damage": [
               "Estándar",
@@ -61,14 +61,14 @@
               "Fuego"
             ],
             "negations": {
-              "standard": "-10",
-              "slash": "-10",
-              "strike": "0",
-              "pierce": "-10",
-              "magic": "80",
-              "fire": "20",
-              "lightning": "20",
-              "holy": "20"
+              "standard": -10,
+              "slash": -10,
+              "strike": 0,
+              "pierce": -10,
+              "magic": 80,
+              "fire": 20,
+              "lightning": 20,
+              "holy": 20
             },
             "resistances": {
               "poison": "326 / 424 / 714 / 1171",
@@ -82,11 +82,11 @@
           }
         },
         {
-          "phase": "2",
+          "phase": 2,
           "stats": {
-            "health": "4.097",
-            "defense": "109",
-            "stance": "80",
+            "health": 4.097,
+            "defense": 109,
+            "stance": 80,
             "parryable": false,
             "damage": "Mágico",
             "negations": {
@@ -117,18 +117,18 @@
       "tier": "B",
       "name": "Radahn, Azote De Las Estrellas", 
       "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/05/elden-ring-2714031.jpg?tf=3840x",
+      "difficulty": 7,
+      "dropRunes": 70000,
 
-      "difficulty": "7",
-      "dropRunes": "70.000",
       "stats": {
-        "health": "9.572",
-        "defense": "113",
-        "stance": "200",
+        "health": 9572,
+        "defense": 113,
+        "stance": 200,
         "parryable": false,
         "damage": [
           "Estandar",
-          "Perforante",
-          "Mágico"
+          " Perforante",
+          " Mágico"
         ],
         "negations": {
           "standard": "10",
@@ -156,19 +156,19 @@
       "tier": "B",
       "name": "Morgott, El Rey Del Augurio",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_close.jpg",
+      "difficulty": 5,
+      "dropRunes": 120000,
 
-      "difficulty": "5",
-      "dropRunes": "120.000",
       "stats": {
-        "health": "10.399",
-        "defense": "114",
-        "stance": "80",
+        "health": 10399,
+        "defense": 114,
+        "stance": 80,
         "parryable": true,
         "damage": [
           "Cortante (Fase 1 & 2)",
-          "Perforante (Fase 1 & 2)",
-          "Santo (Fase 1 & 2)",
-          "Fuego (Fase 2)"
+          " Perforante (Fase 1 & 2)",
+          " Santo (Fase 1 & 2)",
+          " Fuego (Fase 2)"
         ],
         "inflicts": "Hemorragia",
         "negations": {
@@ -197,18 +197,18 @@
       "tier": "B",
       "name": "Serpiente Devoradioses / Rykard, Señor De La Blasfemia",
       "image": "https://assetsio.reedpopcdn.com/elden_ring_guide_rykard_boss_fight_scene_4.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+      "difficulty": 7,
+      "dropRunes": 130000,
 
-      "difficulty": "7",
-      "dropRunes": "130.000",
       "stats": {
-        "health": "30.493 / 59.174",
-        "defense": "115",
-        "stance": "120",
+        "health": "30493 / 59174",
+        "defense": 115,
+        "stance": 120,
         "parryable": false,
         "damage": [
           "Estándar (Fase 1 & 2)",
-          "Fuego (Fase 1 & 2)",
-          "Perforante (Fase 2)"
+          " Fuego (Fase 1 & 2)",
+          " Perforante (Fase 2)"
         ],
         "inflicts": "Veneno",
         "negations": {
@@ -237,18 +237,18 @@
       "tier": "B",
       "name": "Mohg, Señor De La Sangre",
       "image": "https://editors.dexerto.com/wp-content/uploads/2024/02/22/elden-ring-mohg-lord-of-blood.jpg",
+      "difficulty": 9,
+      "dropRunes": 420000,
 
-      "difficulty": "9",
-      "dropRunes": "420.000",
       "stats": {
-        "health": "18.389",
-        "defense": "122",
-        "stance": "110",
+        "health": 18389,
+        "defense": 122,
+        "stance": 110,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Perforante",
-          "Fuego"
+          " Perforante",
+          " Fuego"
         ],
         "inflicts": "Hemorragia",
         "negations": {
@@ -277,18 +277,18 @@
       "tier": "B",
       "name": "Malenia, Espada De Miquella",
       "image": "https://assetsio.reedpopcdn.com/malenia-first-phase.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+      "difficulty": 10,
+      "dropRunes": 480000,
 
-      "difficulty": "10",
-      "dropRunes": "480.000",
       "stats": {
-        "health": "18.473 / 14.778",
-        "defense": "120",
-        "stance": "80",
+        "health": "18473 / 14778",
+        "defense": 120,
+        "stance": 80,
         "parryable": true,
         "damage": [
           "Estándar (Fase 1 & 2)",
-          "Cortante (Fase 1 & 2)",
-          "Perforante (Fase 1 & 2)"
+          " Cortante (Fase 1 & 2)",
+          " Perforante (Fase 1 & 2)"
         ],
         "inflicts": "Podredumbre escarlata (Fase 2)",
         "negations": {
@@ -317,18 +317,18 @@
       "tier": "B",
       "name": "Dragón Liche Fortissax",
       "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/lichdragon-fortissax-nightmare-sky.jpg",
+      "difficulty": 5,
+      "dropRunes": 90000,
 
-      "difficulty": "5",
-      "dropRunes": "90.000",
       "stats": {
-        "health": "12.903",
-        "defense": "114",
-        "stance": "140",
+        "health": 12903,
+        "defense": 114,
+        "stance": 140,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Fuego",
-          "Rayo"
+          " Fuego",
+          " Rayo"
         ],
         "inflicts": "Plaga de muerte",
         "negations": {
@@ -357,17 +357,17 @@
       "tier": "C",
       "name": "Astel, Innato Del Vacío",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel.jpg",
+      "difficulty": 5,
+      "dropRunes": 80000,
 
-      "difficulty": "5",
-      "dropRunes": "80.000",
       "stats": {
-        "health": "11.170",
-        "defense": "114",
-        "stance": "120",
+        "health": 11170,
+        "defense": 114,
+        "stance": 120,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Mágico"
+          " Mágico"
         ],
         "negations": {
           "standard": "10",
@@ -395,27 +395,27 @@
       "tier": "S",
       "name": "Espíritu Ancestro Real",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/regal-ancestor-2-hq-elden-ring-wiki-guide.jpg",
+      "difficulty": 4,
+      "dropRunes": 24000,
 
-      "difficulty": "4",
-      "dropRunes": "24.000",
       "stats": {
-        "health": "6.301",
-        "defense": "111",
-        "stance": "120",
+        "health": 6301,
+        "defense": 111,
+        "stance": 120,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Mágico"
+          " Mágico"
         ],
         "negations": {
-          "standard": "0",
-          "slash": "-10",
-          "strike": "0",
-          "pierce": "0",
-          "magic": "20",
-          "fire": "-20",
-          "lightning": "0",
-          "holy": "-20"
+          "standard": 0,
+          "slash": -10,
+          "strike": 0,
+          "pierce": 0,
+          "magic": 20,
+          "fire": -20,
+          "lightning": 0,
+          "holy": -20
         },
         "resistances": {
           "poison": "1169 / 1626",
@@ -433,18 +433,18 @@
       "tier": "B",
       "name": "Gigante Del Fuego",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-giant-3-hq-elden-ring-wiki-guide.jpg",
+      "difficulty": 6,
+      "dropRunes": 180000,
 
-      "difficulty": "6",
-      "dropRunes": "180.000",
       "stats": {
-        "health": "42.363",
-        "defense": "118",
-        "stance": "120",
+        "health": 42.363,
+        "defense": 118,
+        "stance": 120,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Contundente",
-          "Fuego"
+          " Contundente",
+          " Fuego"
         ],
         "negations": {
           "standard": "0",
@@ -472,18 +472,18 @@
       "tier": "S",
       "name": "Señor Dragón Placidusax",
       "image": "https://staticg.sportskeeda.com/editor/2022/03/10d2f-16468205136995-1920.jpg",
+      "difficulty": 8,
+      "dropRunes": 280000,
 
-      "difficulty": "8",
-      "dropRunes": "280.000",
       "stats": {
-        "health": "22.651",
-        "defense": "121",
-        "stance": "160",
+        "health": 22651,
+        "defense": 121,
+        "stance": 160,
         "parryable": false,
         "damage": [
           "Estándar",
-          "Fuego",
-          "Rayo"
+          " Fuego",
+          " Rayo"
         ],
         "negations": {
           "standard": "35",
@@ -512,16 +512,16 @@
       "name": "Clérigo Bestia / Maliketh, La Hoja Negra",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-clergyman-4k.jpg",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh-the-black-blade-4k.jpg",
+      "difficulty": 8,
+      "dropRunes": 220000,
 
-      "difficulty": "8",
-      "dropRunes": "220.000",
       "phases": [
         {
-          "phase": "1",
+          "phase": 1,
           "stats": {
-            "health": "10.620",
-            "defense": "120",
-            "stance": "80",
+            "health": 10.620,
+            "defense": 120,
+            "stance": 80,
             "parryable": true,
             "damage": [
               "Estándar",
@@ -551,7 +551,7 @@
           }
         },
         {
-          "phase": "2",
+          "phase": 2,
           "stats": {
             "health": "5.310 or less",
             "defense": "120",
@@ -590,16 +590,15 @@
       "tier": "A",
       "name": "Godfrey, Primer Señor Del Círculo / Hoarah Loux",
       "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey-first-elden-lord-hoarah-loux.jpg",
+      "difficulty": 8,
+      "dropRunes": 300000,
 
-      "difficulty": "8",
-      "dropRunes": "300.000",
-      "hasFases": true,
       "phases": [
         {
-          "phase": "1",
+          "phase": 1,
           "stats": {
-            "health": "21.903",
-            "defense": "120",
+            "health": 21.903,
+            "defense": 120,
             "stance": "120",
             "parryable": false,
             "damage": [
@@ -628,25 +627,25 @@
           }
         },
         {
-          "phase": "2",
+          "phase": 2,
           "stats": {
             "health": "10.952 or less",
-            "defense": "120",
-            "stance": "120",
+            "defense": 120,
+            "stance": 120,
             "parryable": false,
             "damage": [
               "Estándar",
               "Contundente"
             ],
             "negations": {
-              "standard": "0",
-              "slash": "-10",
-              "strike": "0",
-              "pierce": "0",
-              "magic": "0",
-              "fire": "0",
-              "lightning": "0",
-              "holy": "40"
+              "standard": 0,
+              "slash": -10,
+              "strike": 0,
+              "pierce": 0,
+              "magic": 0,
+              "fire": 0,
+              "lightning": 0,
+              "holy": 40
             },
             "resistances": {
               "poison": "367 / 465 / 755 / 1212",
@@ -667,16 +666,15 @@
       "name": "Radagon De La Orden Dorada / Bestia Del Círculo",
       "image": "https://www.pcinvasion.com/wp-content/uploads/2022/04/elden-ring-how-to-beat-radagon-elden-beast-feat.jpg?fit=1920%2C1080",
       "image2": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-beast-boss-elden-ring-wiki-guide.jpg",
-
-      "difficulty": "10",
-      "dropRunes": "500.000",
+      "difficulty": 10,
+      "dropRunes": 500000,
       "phases": [
         {
-          "phase": "1",
+          "phase": 1,
           "stats": {
-            "health": "13.339",
+            "health": 13.339,
             "defense": "???",
-            "stance": "120",
+            "stance": 120,
             "parryable": true,
             "damage": [
               "Estándar",
@@ -684,14 +682,14 @@
               "Santo"
             ],
             "negations": {
-              "standard": "35",
-              "slash": "35",
-              "strike": "10",
-              "pierce": "35",
-              "magic": "20",
-              "fire": "0",
-              "lightning": "20",
-              "holy": "80"
+              "standard": 35,
+              "slash": 35,
+              "strike": 10,
+              "pierce": 35,
+              "magic": 20,
+              "fire": 0,
+              "lightning": 20,
+              "holy": 80
             },
             "resistances": {
               "poison": "627.4",
@@ -705,11 +703,11 @@
           }
         },
         {
-          "phase": "2",
+          "phase": 2,
           "stats": {
-            "health": "22.127",
+            "health": 22.127,
             "defense": "???",
-            "stance": "150",
+            "stance": 150,
             "parryable": false,
             "damage": [
               "Estándar",
@@ -717,14 +715,14 @@
               "Santo"
             ],
             "negations": {
-              "standard": "10",
-              "slash": "10",
-              "strike": "10",
-              "pierce": "10",
-              "magic": "40",
-              "fire": "40",
-              "lightning": "40",
-              "holy": "80"
+              "standard": 10,
+              "slash": 10,
+              "strike": 10,
+              "pierce": 10,
+              "magic": 40,
+              "fire": 40,
+              "lightning": 40,
+              "holy": 80
             },
             "resistances": {
               "poison": "Inmune",
